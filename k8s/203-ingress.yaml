@@ -11,7 +11,7 @@ spec:
   - host: dev.opsta.net
     http:
       paths:
-      - path: /student43/static/(.*)
+      - path: /student43/static(/|$)(.*)
         pathType: Prefix
         backend:
           service:
