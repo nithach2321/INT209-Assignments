@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: ghcr.io/nithach2321/int203_62130500043_groupwork_6:opsta-web
+    ports:
+      - "8080:80"
